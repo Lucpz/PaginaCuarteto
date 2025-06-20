@@ -86,7 +86,7 @@ nav {
 
 .album-header {
     position: relative;
-    background-image: url("./../public/img/cuartetobanner.jpeg");
+    background-image: url("./../img/cuartetobanner.jpeg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
