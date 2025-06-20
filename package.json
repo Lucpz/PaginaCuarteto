@@ -1,0 +1,22 @@
+{
+  "name": "paginacuarteto",
+  "version": "1.0.0",
+  "description": "pagina cuarteto",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucpz/PaginaCuarteto.git"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucpz/PaginaCuarteto/issues"
+  },
+  "homepage": "https://github.com/Lucpz/PaginaCuarteto#readme"
+}
