@@ -1,0 +1,110 @@
+.banda-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.ms-cover{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+    color: white;
+}
+
+.ms-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    color: #65dcf1;
+    text-transform: uppercase;
+    }
+
+.ms-description{
+    font-size: 20px;
+    font-weight: bold;
+    width: 70%;
+}
+
+.ms-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms-member1, .ms-member2, .ms-member3, .ms-member4 {
+    position: relative;
+    width: 180px;
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 0 -45px;
+    backdrop-filter: blur(10px);
+    object-fit: cover;
+    object-fit: contain;
+    
+}
+
+.ms-member1 {
+    background-image: url("../public/img/roberto.jpg");
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    transform: rotate(calc(-15 * 1deg));
+}
+
+.ms-member2 {
+    background-image: url("../public/img/alvaro.png");
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+    transform: rotate(calc(5 * 1deg));
+}
+
+.ms-member3 {
+    background-image: url("../public/img/gustavo.jpg");
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+    transform: rotate(calc(15 * 1deg));
+}
+
+.ms-member4 {
+    background-image: url("../public/img/santiago.webp");
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+    transform: rotate(calc(30 * 1deg));
+}
+
+.ms-box:hover .ms-member1, .ms-box:hover .ms-member2, .ms-box:hover .ms-member3, .ms-box:hover .ms-member4 {
+    transform: rotate(0deg);
+    margin: 0 10px;
+  }
+
+.ms-member1::after, .ms-member2::after, .ms-member3::after, .ms-member4::after {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.ms-member2::after, .ms-member4::after {
+    color: white;
+}
