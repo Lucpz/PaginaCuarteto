@@ -55,7 +55,7 @@
 }
 
 .ms-member1 {
-    background-image: url("../public/img/roberto.jpg");
+    background-image: url("./../public/img/roberto.jpg");
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 }
 
 .ms-member2 {
-    background-image: url("../public/img/alvaro.png");
+    background-image: url("./../public/img/alvaro.png");
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 }
 
 .ms-member3 {
-    background-image: url("../public/img/gustavo.jpg");
+    background-image: url("./../public/img/gustavo.jpg");
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 }
 
 .ms-member4 {
-    background-image: url("../public/img/santiago.webp");
+    background-image: url("./../public/img/santiago.webp");
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
